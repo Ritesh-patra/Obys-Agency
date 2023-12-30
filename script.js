@@ -72,7 +72,8 @@ tl.to("#loader",{
 tl.from("#page1",{
   delay:.2,
   y:1200,
-  esce:Power3
+  esce:Power3,
+  pin:true
 })
 tl.to("#loader",{
   display:"none"
@@ -83,7 +84,6 @@ tl.from("#nav",{
 tl.from(".hero h1,#hero3 h2,.hero h3", {
   y:150,
   stagger:.3,
-
 })
 
 
